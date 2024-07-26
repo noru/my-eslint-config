@@ -1,0 +1,20 @@
+{
+  "name": "my-eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.mjs",
+  "module": "index.mjs",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "typescript-eslint": "^7.13.0"
+  }
+}

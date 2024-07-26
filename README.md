@@ -1,0 +1,1 @@
+## my eslint (v9+) config
