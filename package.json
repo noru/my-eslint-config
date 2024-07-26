@@ -1,5 +1,5 @@
 {
-  "name": "my-eslint-config",
+  "name": "@drewxiu/eslint-config",
   "version": "1.0.0",
   "description": "",
   "type": "module",
