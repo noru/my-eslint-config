@@ -13,7 +13,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
           always-auth: true
-      - run: cat /home/runner/work/_temp/.npmrc
+      - run: 
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
