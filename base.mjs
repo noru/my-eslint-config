@@ -61,7 +61,14 @@ export default [
         'error',
         'always-multiline',
       ],
-
+      'object-curly-newline': ['error', {
+        ObjectExpression: {
+          multiline: true,
+          minProperties: 3,
+        },
+      }],
+      'object-curly-spacing': ['error', 'always'],
+      'object-property-newline': ['error'],
       'space-infix-ops': 'error',
       'arrow-spacing': 'error',
       'keyword-spacing': 'error',
